@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react'
 
-interface Props {
+export interface TimerComponentProps {
+    
+}
+export const a = ()=>{
     
 }
 
-const TimerComponent = (props: Props) => {
+const TimerComponent = (props: TimerComponentProps) => {
     const [time, setTime] = useState(new Date());
  
     useEffect(() => {
